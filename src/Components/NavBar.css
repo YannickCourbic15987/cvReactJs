@@ -1,0 +1,56 @@
+#row4 {
+    padding-bottom : 2.5rem;
+}
+
+
+.navbar{
+    z-index: 2;
+    max-width: 330px;
+    min-width: 450px;
+    background : rgb(132, 128, 128);
+    background : linear-gradient(90 deg, rgba(187, 181, 181, 1)0%, rgba(154, 148, 148, 1)48%, rgba(187, 181, 181, 1)100%);
+    opacity: 0.8;
+    padding: var(--spacing-3) var(--spacing-5);
+    display: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-3);
+    flex-wrap: wrap;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    position: sticky;
+    top: 90%;
+    left: 40%;
+
+}
+
+
+.navbar .btnNav{
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #555;
+    padding: var(--spacing-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .btnNav .noneSpan{
+    display: none;
+}
+
+#row4{
+    padding-bottom: 5rem;
+}
+
+#btnCv .displaySpan{
+    visibility: visible;
+}
